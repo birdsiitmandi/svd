@@ -1,8 +1,11 @@
 # svd
 Audio segmentation using energy
+
+
 INTRODUCTION
 SVD i.e. Singular Valuse Decomposition is applied on pooled time-frequency representation of bird vocalizations to learn basis vectors.By ustilizing only few of the bases,a compact feature representation is obtained for the test data.
 After some simple post-processing, a threshold is used to reliably distinguish bird vocalizations from other sounds.
+
 
 ABOUT CODE
 Code works perfectly with  Python 2 (2.7+, possibly also 2.6).
