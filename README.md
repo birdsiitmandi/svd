@@ -17,7 +17,9 @@ You can run the included svd.py script in the following format:
 
 python svd.py testFilePath segmentedAudiosDirectoryPath
 
-Number of raining files are mentioned using numTrainFiles variable which can be modified accordingly.
+Number of training files are mentioned using numTrainFiles variable which can be modified accordingly i.e. 1 for using only one training file or 2 for using two training files or similarly 3.
+Ensure training files are as clean as possible i.e. no background or overlapping noise is present. Since,these will be the files through which code will learn and segment audios from test file.
+
 Path of training data is mentioned using trainPath1,trainPath2,trainPath3 variables,which can be commented out depending on number of training files.
 
 The code internally performs checks to see if path to code,test file and segmentation directory is mentioned properly.
