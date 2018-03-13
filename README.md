@@ -24,3 +24,5 @@ Path of training data is mentioned using trainPath1,trainPath2,trainPath3 variab
 
 The code internally performs checks to see if path to code,test file and segmentation directory is mentioned properly.
 
+Please follow the latest branch to get updated version of code.
+
